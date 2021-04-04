@@ -12,7 +12,6 @@ sections:
 - type: document
   path: Content/Pages
   label: Pages
-  match: "**/*"
 - type: heading
   label: Content
 - type: directory
