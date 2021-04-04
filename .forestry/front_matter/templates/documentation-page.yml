@@ -14,16 +14,6 @@ fields:
 - type: text
   name: slug
   label: slug
-- name: overview
-  type: blocks
-  template_types:
-  - documentation-page
-  config:
-    min: 1
-    max: 3
-  label: Overview
-  description: This is the Overview paragraph
-  hidden: false
 - name: list
   type: list
   config:
