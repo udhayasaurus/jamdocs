@@ -14,5 +14,33 @@ fields:
 - type: text
   name: slug
   label: slug
+- name: overview
+  type: blocks
+  template_types:
+  - documentation-page
+  config:
+    min: 1
+    max: 3
+  label: Overview
+  description: This is the Overview paragraph
+  hidden: false
+- name: list
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: list
+  description: list for section breakdowns or related pages
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Body
+  description: Reusable body para
 pages:
 - docs/editing-in-forestry.md
